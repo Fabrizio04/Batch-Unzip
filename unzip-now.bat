@@ -2,7 +2,7 @@
 setlocal
 
 set folderPath="%~dp0"
-set zipFile="%1"
+set "zipFile=%1"
 
 if not exist %zipFile% (
 echo Zip File Not Found.
